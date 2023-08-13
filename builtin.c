@@ -89,9 +89,7 @@ int _myhlp(info_t *inf)
 
 	arg_array = inf->argv;
 	_puts("help call works Function not yet implemented \n");
-	if (0) {
-		_puts(*arg_array);
-	} 
+	if (0) 	_puts(*arg_array);
 	return (0);
 }
 
