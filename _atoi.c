@@ -12,12 +12,12 @@ int interactive1(info_t *info)
 }
 
 /**
- * is_dlm - checks if character is a delimeter
+ * is_delim - checks if character is a delimeter
  * @c: the char to check
  * @delim: the delimeter string
  * Return: 1 if true, 0 if false
  */
-int is_dlm(char c, char *delim)
+int is_delim(char c, char *delim)
 {
 	while (*delim)
 		if (*delim++ == c)
