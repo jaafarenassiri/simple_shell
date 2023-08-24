@@ -51,7 +51,7 @@ int set_alias1(info_t *info, char *str)
 	if (!p)
 		return (1);
 	if (!*++p)
-		return (unset_alias(info, str));
+		return (unset_alias1(info, str));
 
 	unset_alias1(info, str);
 	return (add_node_end(&(info->alias), str, 0) == NULL);
